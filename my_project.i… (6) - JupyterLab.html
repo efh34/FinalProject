@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>JupyterLab</title><meta name="viewport" content="width=device-width,initial-scale=1">   <script id="jupyter-config-data" type="application/json">{"allow_hidden_files": false, "appName": "JupyterLab", "appNamespace": "lab", "appSettingsDir": "/usr/lib/anaconda3/share/jupyter/lab/settings", "appUrl": "/lab", "appVersion": "4.2.4", "baseUrl": "/user/efh34/", "buildAvailable": true, "buildCheck": true, "cacheFiles": false, "copyAbsolutePath": false, "devMode": false, "disabledExtensions": [], "exposeAppInBrowser": false, "extensionManager": {"can_install": true, "install_path": "/usr/lib/anaconda3", "name": "PyPI"}, "extraLabextensionsPath": [], "federated_extensions": [{"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.36690a2bfa9ee0dd7bc8.js", "mimeExtension": "./mimeExtension", "name": "jupyterlab-plotly"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.cfbccb113f4c7c1d65fe.js", "name": "@lckr/jupyterlab_variableinspector", "style": "./style"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.d04be841d48ffe2a9bdd.js", "name": "@jupyter-notebook/lab-extension", "style": "./style"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.8752e07acaa5b8733105.js", "name": "@jupyter/nbgrader", "style": "./style"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.ca1efc27dc965162ca86.js", "name": "@jupyter-widgets/jupyterlab-manager"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.c8393541423362724be3.js", "name": "@pyviz/jupyterlab_pyviz", "style": "./style"}], "fullAppUrl": "/user/efh34/lab", "fullLabextensionsUrl": "/user/efh34/lab/extensions", "fullLicensesUrl": "/user/efh34/lab/api/licenses", "fullListingsUrl": "/user/efh34/lab/api/listings", "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js", "fullSettingsUrl": "/user/efh34/lab/api/settings", "fullStaticUrl": "/user/efh34/static/lab", "fullThemesUrl": "/user/efh34/lab/api/themes", "fullTranslationsApiUrl": "/user/efh34/lab/api/translations", "fullTreeUrl": "/user/efh34/lab/tree", "fullWorkspacesApiUrl": "/user/efh34/lab/api/workspaces", "hubHost": "", "hubPrefix": "/hub/", "hubServerName": "", "hubServerUser": "efh34", "hubUser": "efh34", "ignorePlugins": [], "labextensionsPath": ["/home/efh34/.local/share/jupyter/labextensions", "/usr/lib/anaconda3/share/jupyter/labextensions", "/usr/local/share/jupyter/labextensions", "/usr/share/jupyter/labextensions"], "labextensionsUrl": "/lab/extensions", "licensesUrl": "/lab/api/licenses", "listingsUrl": "/lab/api/listings", "mathjaxConfig": "TeX-AMS_HTML-full,Safe", "mode": "multiple-document", "nbclassic_enabled": false, "news": {"disabled": false}, "notebookStartsKernel": true, "notebookVersion": "[2, 14, 1]", "preferredPath": "/", "quitButton": false, "rootUri": "file:///home/efh34", "schemasDir": "/usr/lib/anaconda3/share/jupyter/lab/schemas", "serverRoot": "/home/efh34", "settingsUrl": "/lab/api/settings", "shareUrl": "/hub/user-redirect", "staticDir": "/usr/lib/anaconda3/share/jupyter/lab/static", "store_id": 11, "templatesDir": "/usr/lib/anaconda3/share/jupyter/lab/static", "terminalsAvailable": true, "themesDir": "/usr/lib/anaconda3/share/jupyter/lab/themes", "themesUrl": "/lab/api/themes", "token": "VIw48e8JAisPrRDeVHwE0iM7geQHre", "translationsApiUrl": "/lab/api/translations", "treePath": "cs210/Course Project - Final Submissions/Final Project Report.pdf", "treeUrl": "/lab/tree", "userSettingsDir": "/home/efh34/.jupyter/lab/user-settings", "virtualDocumentsUri": "file:///home/efh34/.virtual_documents", "workspace": "default", "workspacesApiUrl": "/lab/api/workspaces", "workspacesDir": "/home/efh34/.jupyter/lab/workspaces", "wsUrl": ""}</script><link rel="icon" type="image/x-icon" href="/user/efh34/static/favicons/favicon.ico" class="idle favicon"><link rel="" type="image/x-icon" href="/user/efh34/static/favicons/favicon-busy-1.ico" class="busy favicon"> <script defer="defer" src="/user/efh34/static/lab/main.cce1c6d9a919936183e5.js?v=cce1c6d9a919936183e5"></script></head><body><script>/* Remove token from URL. */
+  (function () {
+    var location = window.location;
+    var search = location.search;
+
+    // If there is no query string, bail.
+    if (search.length <= 1) {
+      return;
+    }
+
+    // Rebuild the query string without the `token`.
+    var query = '?' + search.slice(1).split('&')
+      .filter(function (param) { return param.split('=')[0] !== 'token'; })
+      .join('&');
+
+    // Rebuild the URL with the new query string.
+    var url = location.origin + location.pathname +
+      (query !== '?' ? query : '') + location.hash;
+
+    if (url === location.href) {
+      return;
+    }
+
+    window.history.replaceState({ }, '', url);
+  })();</script></body></html>
